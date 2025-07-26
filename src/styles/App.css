@@ -10,3 +10,99 @@ button{
     justify-content: center;
     align-items: center;
 }
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+#review-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.review {
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.person-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #49a6e9;
+  margin-bottom: 1rem;
+}
+
+.author {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #102a42;
+}
+
+.job {
+  font-size: 1rem;
+  color: #49a6e9;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.info {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.button-container {
+  margin-bottom: 1rem;
+}
+
+.prev-btn,
+.next-btn {
+  background: transparent;
+  border: 2px solid #49a6e9;
+  color: #49a6e9;
+  font-size: 0.9rem;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background: #49a6e9;
+  color: #fff;
+}
+
+.random-btn {
+  background: #49a6e9;
+  color: #fff;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.random-btn:hover {
+  background: #2672b8;
+}
